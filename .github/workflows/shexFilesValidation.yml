@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: RDF files validation
+name: ShEx files validation
 
 # Controls when the action will run. 
 on:
@@ -37,12 +35,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
 
-      # Runs a RDFSyntaxicValidation script
-      - name: Check syntaxic validation of RDF files
+      # Runs a ShexPrefixValidation script
+      - name: Check unused prefixes in shex files
         run: |
-          python scripts/RDFSyntaxicValidation.py
-
-      # Runs a RDFPrefixValidation script
-      - name: Check unused prefixes in RDF files
-        run: |
-         python scripts/RDFPrefixValidation.py
+         python scripts/ShexPrefixValidation.py

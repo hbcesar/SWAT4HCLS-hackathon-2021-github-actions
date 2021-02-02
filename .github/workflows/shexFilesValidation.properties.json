@@ -1,0 +1,5 @@
+{
+    "name": "ShEx files validation",
+    "description": "Workflow to validate common ShEx file errors",
+    "iconName": "rdf-icon"
+}

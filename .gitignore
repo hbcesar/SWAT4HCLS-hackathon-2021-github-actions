@@ -2,3 +2,9 @@
 scripts/venv/
 
 scripts/.idea/
+
+.idea/
+
+venv/
+
+example-files/files-for-testing/
